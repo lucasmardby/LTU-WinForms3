@@ -1,0 +1,17 @@
+E:\Code\LTU-WinForms3\LTUWinForms3\bin\Debug\net8.0-windows\LTUWinForms3.exe
+E:\Code\LTU-WinForms3\LTUWinForms3\bin\Debug\net8.0-windows\LTUWinForms3.deps.json
+E:\Code\LTU-WinForms3\LTUWinForms3\bin\Debug\net8.0-windows\LTUWinForms3.runtimeconfig.json
+E:\Code\LTU-WinForms3\LTUWinForms3\bin\Debug\net8.0-windows\LTUWinForms3.dll
+E:\Code\LTU-WinForms3\LTUWinForms3\bin\Debug\net8.0-windows\LTUWinForms3.pdb
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.MainForm.resources
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.csproj.GenerateResource.cache
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.AssemblyInfoInputs.cache
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.AssemblyInfo.cs
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.csproj.CoreCompileInputs.cache
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.sourcelink.json
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.dll
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\refint\LTUWinForms3.dll
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.pdb
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\LTUWinForms3.genruntimeconfig.cache
+E:\Code\LTU-WinForms3\LTUWinForms3\obj\Debug\net8.0-windows\ref\LTUWinForms3.dll
