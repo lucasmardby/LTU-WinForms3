@@ -3,12 +3,17 @@ using System.Configuration;
 
 namespace LTUWinForms3
 {
+    //My Person class
     internal class Person
     {
         private string firstName;
         private string lastName;
         private string personalNumber;
         private string gender;
+
+        #region Getters and Setters
+        //Getters and Setters for all instance variables
+        //Makes sure strings are not null before setting them.
 
         public string GetFirstName()
         {
@@ -36,6 +41,11 @@ namespace LTUWinForms3
         {
             return personalNumber;
         }
+        /// <summary>
+        /// Makes sure the personal number is of valid length before passing it into ControlPersonalNumber()
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public bool SetPersonalNumber(string value)
         {
             bool ok = int.TryParse(value, out int number);
@@ -59,11 +69,21 @@ namespace LTUWinForms3
         {
             return gender;
         }
+        /// <summary>
+        /// Sets gender by passing it into ControlGender()
+        /// </summary>
         public void SetGender()
         {
             ControlGender();
         }
+        #endregion
 
+        /// <summary>
+        /// Controls personal number by going through each number, multiplying every other with 2 and 1,
+        /// before adding all numbers back together.
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns>True if the final sum is dividible by 10</returns>
         private static bool ControlPersonalNumber(string value)
         {
             if (value.Length == 12)
@@ -118,6 +138,10 @@ namespace LTUWinForms3
 
             return validPersonalNumber;
         }
+        /// <summary>
+        /// Checks the second to last number in personal number,
+        /// Set gender to female if even, and male if odd
+        /// </summary>
         private void ControlGender()
         {
             char[] values = personalNumber.ToCharArray();
