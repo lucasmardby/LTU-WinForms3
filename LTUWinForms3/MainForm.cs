@@ -8,6 +8,11 @@ namespace LTUWinForms3
         {
             InitializeComponent();
             InitializeGUI();
+            CreateContextMenu();
+        }
+        private void CreateContextMenu()
+        {
+            this.ContextMenuStrip = menuMain;
         }
         private void InitializeGUI()
         {
@@ -15,11 +20,51 @@ namespace LTUWinForms3
             txtLastName.Text = string.Empty;
             txtPersonalNumber.Text = string.Empty;
             lstbxResult.Items.Clear();
+
+            grpInfo.Visible = false;
+
+            grpRegister.Visible = false;
+            lblRegisterPerson.Visible = false;
+        }
+        private void InitializeRegisterPerson()
+        {
+            lblGreet.Visible = false;
+            lblTip.Visible = false;
+
+            grpInfo.Visible = false;
+            grpRegister.Visible = true;
+            lblRegisterPerson.Visible = true;
+        }
+        private void InitializeInformation()
+        {
+            lblGreet.Visible = true;
+            lblTip.Visible = true;
+
+            grpInfo.Visible = true;
+            grpRegister.Visible = false;
+            lblRegisterPerson.Visible = false;
+        }
+
+        private void registToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InitializeRegisterPerson();
+        }
+        private void informationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InitializeInformation();
+        }
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void btnOk_Click(object sender, EventArgs e)
         {
             ReadUserInput();
+        }
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void ReadUserInput()
@@ -72,5 +117,6 @@ namespace LTUWinForms3
             lstbxResult.Items.Add($"{person.GetGender()}");
         }
 
+        
     }
 }
